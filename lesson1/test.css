@@ -1,0 +1,29 @@
+.btn {
+  cursor: default;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: normal;
+  border: 1px solid #004ee3;
+}
+
+.btn-group {
+  display: flex;
+}
+
+.change {
+  color: #ffffff;
+  background-color: #004ee3;
+}
+
+.reset {
+  margin-left: 20px;
+  color: #004ee3;
+}
