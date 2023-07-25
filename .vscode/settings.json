@@ -5,11 +5,5 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[vue]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[less]": {
-    "editor.defaultFormatter": "stylelint.vscode-stylelint"
-  },
-  "[css]": {
-    "editor.defaultFormatter": "stylelint.vscode-stylelint"
   }
 }

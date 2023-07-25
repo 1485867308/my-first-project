@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="text" id="name" name="name" required minlength="4" maxlength="8" size="30" />
+
+    <fieldset>
+      <legend>食物</legend>
+
+      <div>
+        <input type="radio" id="huey" name="drone" value="huey" checked />
+        <label for="huey">烤鸡</label>
+      </div>
+
+      <div>
+        <input type="radio" id="dewey" name="drone" value="dewey" />
+        <label for="dewey">烤全羊</label>
+      </div>
+
+      <div>
+        <input type="radio" id="louie" name="drone" value="louie" />
+        <label for="louie">烤鸭</label>
+      </div>
+
+      <div>
+        <input type="radio" id="louie" name="drone" value="louie" />
+        <label for="louie">烤乳猪</label>
+      </div>
+
+      <div>
+        <input type="radio" id="louie" name="drone" value="louie" />
+        <label for="louie">炸鸡</label>
+      </div>
+
+      <div>
+        <input type="radio" id="louie" name="drone" value="louie" />
+        <label for="louie">肉夹馍</label>
+      </div>
+
+      <div>
+        <input type="radio" id="louie" name="drone" value="louie" />
+        <label for="louie">其他</label>
+      </div>
+    </fieldset>
+    <!-- 分界线 -->
+    <fieldset>
+      <legend>饮料</legend>
+
+      <div>
+        <input type="checkbox" id="scales" name="scales" checked />
+        <label for="scales">苹果汁</label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="horns" name="horns" />
+        <label for="horns">汽水</label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="horns" name="horns" />
+        <label for="horns">啤酒</label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="horns" name="horns" />
+        <label for="horns">凉白开</label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="horns" name="horns" />
+        <label for="horns">纯牛奶</label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="horns" name="horns" />
+        <label for="horns">酸奶</label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="horns" name="horns" />
+        <label for="horns">小米粥</label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="horns" name="horns" />
+        <label for="horns">其他</label>
+      </div>
+    </fieldset>
+    <!-- 分界线 -->
+    <form>
+      <div>
+        <label style="width: 56px; display: inline-block" for="username">用户名:</label>
+        <input type="text" id="username" name="username" />
+      </div>
+
+      <div>
+        <label style="width: 56px; display: inline-block" for="pass">密码:</label>
+        <input type="password" id="pass" name="password" />
+      </div>
+
+      <div>
+        <button>确定</button>
+
+        <!--         <input type="submit" value="提交" />
+
+        <input type="reset" value="重置" /> -->
+      </div>
+    </form>
+
+    <div>
+      <input type="color" id="head" name="head" value="#e66465" />
+    </div>
+
+    <input type="date" id="start" name="trip-start" value="2023-07-24" min="2023-01-01" max="2023-12-31" />
+
+    <input type="time" id="appt" name="appt" min="00:00" max="24:00" required />
+
+    <input type="email" id="email" pattern=".+@163.com" size="30" required />
+
+    <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" />
+
+    <input type="number" id="tentacles" name="tentacles" min="0" max="5" />
+
+    <div>
+      <input type="range" id="cowbell" name="cowbell" min="0" max="100" value="-3" step="10" />
+      <label for="cowbell">未知</label>
+    </div>
+
+    <input type="search" id="site-search" name="t" />
+
+    <button>搜索</button>
+
+    <input type="url" name="url" id="url" placeholder="https://example.com" pattern="https://.*" size="30" required />
+  </body>
+</html>

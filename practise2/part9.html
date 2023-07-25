@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="9.asp" method="get">
+      名 <input type="text" name="fname" value="哈" /><br />
+      姓 <input type="text" name="lname" value="呵" /><br />
+      <input type="submit" value="Submit form" />
+
+      <form action="9.php">
+        名字 <input type="text" name="fullname" /><br />
+        邮箱 <input type="text" name="email" /><br />
+        <input type="submit" value="提交" />
+      </form>
+    </form>
+
+    <form action="demo_form.php" method="get">
+      <input type="checkbox" name="vehicle" value="Bike" /> 水<br />
+      <input type="checkbox" name="vehicle" value="Car" checked /> 食物<br />
+      <input type="submit" value="提交" />
+    </form>
+
+    <form action="demo-form.php">
+      <input type="text" name="fname" placeholder="名" /><br />
+      <input type="text" name="lname" placeholder="姓" /><br />
+      <input type="submit" value="提交" />
+    </form>
+
+    <form action="demo_form.php">
+      名 <input type="text" name="fname" /><br />
+      姓 <input type="text" name="lname" disabled /><br />
+      <input type="submit" value="提交" />
+    </form>
+
+    <form action="demo-form.php">
+      输入 2023-7-25 之前的日期:
+      <input type="date" name="bday" max="1979-12-31" /><br />
+
+      输入 2023-7-25 之后的日期:
+      <input type="date" name="bday" min="2000-01-02" /><br />
+
+      数量 (在0和1000000000之间):
+      <input type="number" name="quantity" min="0" max="1000000000" /><br />
+
+      <input type="submit" />
+    </form>
+
+    <form action="demo-form.php">
+      用户名 <input type="text" name="usrname" required />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
